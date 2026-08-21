@@ -1,3 +1,15 @@
 node_modules
 .env
 uploads
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
